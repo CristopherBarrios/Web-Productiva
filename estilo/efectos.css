@@ -1,0 +1,169 @@
+p#header{
+	text-align: center;
+	font-size: 3em;
+	color: black;
+}
+
+p#subheader{
+	text-align: center;
+	color: black;
+	margin-top:20px;
+	font-size: 1.3em
+}
+
+header{
+	margin:100px auto;
+	width:800px;
+	height:230px;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .5s;
+}
+
+div.contenedor:hover{
+	height:250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+
+.text-muted{color:#6c757d!important}
+
+
+
+
+
+
+.hola{
+	width: 25%;
+	height: 225px;
+	background-color: #34F511;
+	border-radius: 20px;
+	float: left;
+
+}
+
+input{
+	width: 250px;
+	height: 20px;
+	font-size: 15px;
+	margin-top: 5px;
+	padding-left: 10px;
+}
+button{
+	margin-top: 15px;
+	padding: 5px 20px;
+	background-color: gray;
+	color: white;
+}
+ul{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	text-decoration: none;
+	float: left;
+	width: 110px;
+	height:  20px;
+	font-size: 20px;
+	background-color: black;
+	text-align: center;
+	line-height: 40px;
+	opacity: .9;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	background-color: orange;
+
+}
+ul li ul{
+	display: none;
+	position: absolute;
+}
+ul li:hover > ul
+{
+	display: block;
+}
+
+
+
+table {      
+    width: 480px; 
+    text-align: center;    
+     }
+
+th {     
+	font-weight: normal;     
+	padding: 8px;     
+	background: yellow;    
+    color: blue; }
+
+td {   
+ padding: 8px;     
+	background: #e8edff;        
+    border-top: 1px 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
