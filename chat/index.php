@@ -1,4 +1,12 @@
 <!--Cristopher Jose Rodolfo Barrios Solis  18207-->
+<?php
+session_start();
+
+//connect to database
+$db=mysqli_connect("localhost","root","","calvox");
+
+
+?>
 <html>
   <head>
     <link rel="stylesheet" href="../estilo/style.css">
@@ -11,6 +19,19 @@
         <div class="starfourth"></div>
         <div class="starfifth"></div>
       </div>
+      <style>
+						.boton{
+							position: absolute;
+							top:0px;
+							left:0px;
+						}
+						
+					</style>
+					<div class="boton">
+					<a href="../sesion/home.php">
+				<img src="../images/atras.png" alt="">
+				</a>
+				</div>
 
     <script type="application/javascript">
 
@@ -100,7 +121,7 @@
                     caja.style.paddingBottom = "20px";
                     caja.style.backgroundColor = "#C5C9A4";
                     caja.style.borderRadius = "25px";
-                    if (ent.username == "Cristopher Barrios") {
+                    if (ent.username == "<?php echo $_SESSION['username']; ?>") {
                         caja.style.textAlign = "right";
                     }
                     caja.append(ent.username);
@@ -126,7 +147,7 @@ async function enviar() {
     var entrada = newElement.value;
     if (entrada != "") {
         var Mensajito = {
-            username: "Cristopher Barrios",
+            username: "<?php echo $_SESSION['username']; ?>",
             message: entrada
         }
         let respo = await fetch('http://quetzaluno.space:3000/messages', {

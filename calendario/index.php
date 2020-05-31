@@ -74,15 +74,32 @@ $events = $req->fetchAll();
                             <div class=" wow-bg b " id="">
     <!-- Page Content -->
     <div class="container">
+		
 
         <div class="row">
+			
             <div class="col-lg-12 text-center">
+				
                 
                 <div id="calendar" class="col-centered">
+					<style>
+						.boton{
+							position: absolute;
+							top:0px;
+							left:0px;
+						}
+						
+					</style>
+					<div class="boton">
+					<a href="../sesion/home.php">
+				<img src="../images/atras.png" alt="">
+				</a>
+				</div>
                 </div>
             </div>
 			
-        </div>
+		</div>
+		
         <!-- /.row -->
 		
 		<!-- Modal -->

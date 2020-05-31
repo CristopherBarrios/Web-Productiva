@@ -28,7 +28,7 @@ $db=mysqli_connect("localhost","root","","calvox");
 <div id="mainCoantiner">
   <div class="main-header">
         <div class="col-2">
-          <a href="logout.php" class=" btn-link box-shadow-0 px-0 colorboard">Log Out</a> | <a href=""  class=" btn-link box-shadow-0 px-0 colorboard">Contactanos</a>
+          <a href="logout.php" class=" btn-link box-shadow-0 px-0 colorboard">Log Out</a> | <a href=""  class=" btn-link box-shadow-0 px-0 colorboard"></a>
   </div>
   <!-- boton superior -->
         <div class="folio-btn">
@@ -75,19 +75,21 @@ $db=mysqli_connect("localhost","root","","calvox");
                               <p class="text-muted">Welcome <?php echo $_SESSION['username']; ?></p>
                               </div>
                               <div class="contenedor" id="uno"><a href="../images/calendar.png"></a>
-                                <a href="../calendario"><img class="icon" id="pachon" src="../images/calendar.png" alt="Enviar"></a>
+                              
+                                <a href="../calendario"><div><img class="" id="pachon" src="../images/calendar.png" alt="Enviar"></div></a>
                                 <p class="texto">Calendario</p>
+                                
                               </div>
                               <div class="contenedor" id="dos">
-                                <a href="../chat"><img class="icon" src="../images/chat.png" alt="Enviar"></a>	
+                                <a href="../chat"><img class="" src="../images/chat.png" alt="Enviar"></a>	
                                 <p class="texto">Chat</p>
                               </div>
                               <div class="contenedor" id="tres">
-                                <a href="../todo"><img class="icon" src="../images/todo.png" alt="Enviar"></a>
+                                <a href="../todo"><img class="" src="../images/todo.png" alt="Enviar"></a>
                                 <p class="texto">To-Do</p>
                               </div>
                               <div class="contenedor" id="cuatro">
-                                <a href="../pomodoro"><img class="icon" src="../images/pomodoro.png" alt="Enviar"></a>
+                                <a href="../pomodoro"><img class="" src="../images/pomodoro.png" alt="Enviar"></a>
                                 <p class="texto">Pomodoro</p>
                               </div>
                           

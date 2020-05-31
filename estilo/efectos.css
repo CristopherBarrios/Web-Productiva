@@ -18,13 +18,21 @@ header{
 }
 
 div.contenedor{
+	
 	width: 200px;
 	height: 230px;
 	float:left;
 	-webkit-transition: height .4s;
 }
+.nuevo{
+	position: absolute;
+	top: 10px;
+	align-items: center;
+
+}
 
 div#uno{
+	
 	background-color: rgb(208,101,3);
 }
 
@@ -60,10 +68,12 @@ p.texto{
 }
 
 div.contenedor:hover{
+	
 	height:250px;
 }
 
 div.contenedor:hover p.texto{
+	
 	padding-top: 30px;
 	opacity: 1;
 }
